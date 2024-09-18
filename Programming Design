@@ -1,0 +1,6 @@
+1. Create something that uses the button presses as an input to select the target coordinates and all of the bonus targets' coordinates.
+2. Create a function called move with a parameter that tells us the direction to move in. Use the mecanum wheels to be ablle to move in all 4 diections. Tune the function to always move in a certain unit. (This helps with the coords system.)
+Make sure to update the robot's coordinates after wards.
+3. Use the 4 ultrasonic distance sensors to create a map of the field as it explores the field.
+4. Combine this data with an A Algorithm (Heuristic-based) model to create a hyper optimized maze solver.
+5. For the second trial, use the mental map created in the last round to complete the corse without need for sensors. (Creating a faster time, since you don't have to stop after every movement.)
